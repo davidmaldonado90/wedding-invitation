@@ -1,5 +1,7 @@
 
 const audio = document.getElementById("myAudio"),
+      ceremonia = document.getElementById("ceremony"),
+      house = document.getElementById("casa"),
       inicio = document.getElementById("begin"),
       modal = document.getElementById("myModal"),
       close = document.getElementsByClassName("close")[0],
@@ -45,7 +47,15 @@ close.onclick = function() {
     }, 1000);
 }
 
-
+ceremonia.onclick = () => {
+    // check if the paragraph has already been added
+    if (!house.querySelector(".new-paragraph")) {
+      const newParagraph = document.createElement('p');
+      newParagraph.innerHTML = ' "Amor Incondicional"<br>Ceremonia a cargo de Maria Jose Cardia';      
+      newParagraph.classList.add("new-paragraph");
+      house.insertBefore(newParagraph, house.querySelector(".over"));
+    }
+  };
 
 function copyToClipboard() {
     const copyText = document.querySelector(".copy-text");

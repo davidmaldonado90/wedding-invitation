@@ -72,6 +72,10 @@ body{
 }
 
 .btn-ceremonia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 80%;
     height: 50px;
     font-size: 25px;
@@ -79,6 +83,13 @@ body{
     border-radius: 50px;
     background-color: #cdb17a;
     color: #f8f1e3;
+    text-decoration: none;
+}
+
+.new-paragraph{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .champ{
