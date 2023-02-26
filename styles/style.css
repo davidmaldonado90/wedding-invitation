@@ -23,14 +23,15 @@ body{
 }
 
 .begin{
-    height: 100vh;
+    height: 95vh;
 }
 
 
 .first{
-    height:100vh ;
+    height:95vh ;
     width: 100% ;
 }
+
 
 .ceremonia{
     height: 100vh;
@@ -256,7 +257,7 @@ padding: 5px;
     justify-content: center;
     background-color: #cdb17a ;
     width: 100%;
-    height: 70%;
+    height: 80%;
     color: #f8f1e3;
 
 }
@@ -403,7 +404,7 @@ padding: 5px;
     align-items: center;
     justify-content: space-evenly;
     width: 90%;
-    height: 5%;
+    height: 8%;
     position: fixed ;
     background-color: #cdb17a;
     color: #f8f1e3;
