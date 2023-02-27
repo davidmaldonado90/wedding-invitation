@@ -148,7 +148,7 @@ body{
 }
 
 .cuatro{
-    margin-top: 21.5px;
+    margin-top: 30px;
 }
 .column{
 flex: 25%;
@@ -390,12 +390,17 @@ padding: 5px;
     justify-content: center;
     background-color: #aabf97;
     color: #f8f1e3;
-    font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
     height: 100vh;
+}
+
+.gracias{
+    font-size: 30px;
+    width: 70%;
+    margin: 25px;
 }
 
 .cuenta{
@@ -408,7 +413,7 @@ padding: 5px;
     position: fixed ;
     background-color: #cdb17a;
     color: #f8f1e3;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     margin: 20px;
     padding: 10px;
