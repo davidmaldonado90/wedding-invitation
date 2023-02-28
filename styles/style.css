@@ -420,5 +420,21 @@ padding: 5px;
     border-radius: 5px;
 }
 
+
+.copy{
+    color: #aabf97;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/assets/images/back.png);
+    background-size: cover;
+
+}
+.imgCopy{
+    width: 150px;
+    height: 150px;
+}
+
 }
 
